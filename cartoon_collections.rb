@@ -10,7 +10,8 @@ def summon_captain_planet (array)
   end
   return short_planeteer_calls(calls_array)
   calls_array = []
-  str.split (" ")
+  calls_string = calls_array.split (" ")
+  
 end
 
 def long_planeteer_calls
