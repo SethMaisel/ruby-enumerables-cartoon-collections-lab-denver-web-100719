@@ -9,14 +9,14 @@ def summon_captain_planet (array)
     short_planeteer_calls << "#{calls.capitalize}!"
   end
   return short_planeteer_calls(calls_array)
+  
+end
+
+def long_planeteer_calls(calls_array)
   calls_array = []
   calls_count = calls_array.split (" ").map{|x| x.length}.join(" ")
   if calls_count <= 4 puts "true"
   else puts "false"
-  
-end
-
-def long_planeteer_calls
 end
 
 def find_the_cheese# code an argument here
