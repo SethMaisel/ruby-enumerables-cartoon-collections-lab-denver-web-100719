@@ -10,7 +10,8 @@ def summon_captain_planet (array)
   end
   return short_planeteer_calls(calls_array)
   calls_array = []
-  calls_array.split (" ").map{|x| x.length}.join(" ")
+  calls_count = calls_array.split (" ").map{|x| x.length}.join(" ")
+  
   
 end
 
