@@ -11,8 +11,8 @@ def summon_captain_planet (array)
   return short_planeteer_calls(calls_array)
   calls_array = []
   calls_count = calls_array.split (" ").map{|x| x.length}.join(" ")
-  if calls_count <= 4 puts true
-  else puts false
+  if calls_count <= 4 puts "true"
+  else puts "false"
   
 end
 
