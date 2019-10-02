@@ -8,11 +8,12 @@ def summon_captain_planet (array)
   array.collect do |calls|
     short_planeteer_calls << "#{calls.capitalize}!"
   end
-  return short_planeteer_calls
+  return short_planeteer_calls(calls_array)
+  calls_array = []
+  
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls
 end
 
 def find_the_cheese# code an argument here
